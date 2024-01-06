@@ -1,0 +1,138 @@
+/* General styles */
+div {
+  display: block;
+  align-items: center;
+}
+
+body.style{
+  background-color: white;
+}
+/* Popup styles */
+
+body.popup {
+  /* background-color: #d7e4f1; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 235px;
+  height: 300px;
+  border-radius: 40px;
+  padding: 20px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 20px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 700;
+  margin: 10px;
+  color: #234f78;
+}
+
+.box {
+  border: 0.7px solid #234f78;
+  border-radius: 5px;
+  margin:5px;
+  padding: 0px, 15px, 0px, 25px;
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
+p:nth-of-type(1) {
+  font-size: 15px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  color: #3e3e3e;
+  line-height: 1.3;
+  margin: 15px;
+}
+
+p:nth-of-type(2) {
+  font-size: 13px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 180;
+  margin: 15px;
+}
+
+/* .disabled {
+  filter: grayscale(100%);
+  pointer-events: none;
+  user-select: none;
+} */
+/* Toggle styles */
+
+/* .label-container {
+  display: flex;
+  justify-content: space-between;
+  width: 60px;
+  margin-bottom: 10px;
+}
+
+.label-text {
+  font-size: 14px;
+  color: #6fa8dc;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
+/* .toggle-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.toggle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} */
+
+/* .toggle label {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 10px;
+} */
+
+/* .toggle input[type="checkbox"] {
+  display: none;
+}
+
+.toggle span {
+  position: relative;
+  display: inline-block;
+  height: 32px;
+  width: 58px;
+  /* margin-top:5px; */
+  /* outline: 1px solid #234f78; */
+  /* border-radius: 34px;
+  background-color: #ccc;
+  transition: background-color 0.4s;
+} */
+
+/* .toggle span:before {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: 24px;
+  height: 24px;
+  border-radius: 24px;
+  background-color: white;
+  transition: transform 0.4s;
+}
+
+.toggle input[type="checkbox"]:checked + span {
+  background-color: #234f78;
+}
+
+.toggle input[type="checkbox"]:checked + span:before {
+  transform: translateX(26px);
+} */

@@ -1,0 +1,28 @@
+{
+  "name": "Time is Money",
+  "version": "3.0",
+  "manifest_version": 3,
+  "description": "Chrome extension that converts price to time needed to work on minimum wage.",
+  "icons": {
+    "16": "images/TMicon.png",
+    "32": "images/TMicon.png",
+    "48": "images/TMicon.png",
+    "128": "images/TMicon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "action":{
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.amazon.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
